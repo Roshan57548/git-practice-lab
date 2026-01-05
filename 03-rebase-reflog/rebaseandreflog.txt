@@ -1,0 +1,2 @@
+# Ensure you are on the branch you want to rebase
+git rebase main
