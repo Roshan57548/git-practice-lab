@@ -8,4 +8,10 @@ $ git branch feature/profile-title
 $ git checkout feature/profile-title
 
 # To create and switch in one command (older way):
-git checkout -b code
+git checkout -b feature/profile-title
+
+# Force delete unmerged branch (local)
+git branch -D feature/profile-title
+
+# Delete remote
+git push origin --delete feature/profile-title 
