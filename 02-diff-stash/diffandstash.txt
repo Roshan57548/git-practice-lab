@@ -1,0 +1,6 @@
+# View unstaged changes
+git diff <commit-hash-one> <commit-hash-two>
+
+# View staged changes
+git diff --staged
+
