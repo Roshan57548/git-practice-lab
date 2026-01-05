@@ -1,0 +1,11 @@
+# Start on main branch
+$ git branch
+
+# Create new branch called feature/profile-title
+$ git branch feature/profile-title
+
+# Switch to the new branch
+$ git checkout feature/profile-title
+
+# To create and switch in one command (older way):
+git checkout -b code
