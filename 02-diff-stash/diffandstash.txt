@@ -16,7 +16,7 @@ git stash apply
 # Apply Specific Stash
 git stash apply stash@{0}
 
-# Applying and Drop a Stash
+# Remove Stash
 git stash pop
 
 # Drop the stash
