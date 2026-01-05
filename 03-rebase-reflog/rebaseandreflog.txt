@@ -3,3 +3,9 @@ git rebase main
 
 # Shows history of your commits
 git reflog
+
+# Recover changes by last commit
+git reset --hard <commit-hash>
+
+# Recover changes by HEAD position
+git reset --hard HEAD@{1}
