@@ -1,0 +1,26 @@
+# View unstaged changes
+git diff <commit-hash-one> <commit-hash-two>
+
+# View staged changes
+git diff --staged
+
+# View the stash list
+git stash list
+
+# Naming the stash
+git stash save "work in progress on X feature"
+
+# Apply the Most Recent Stash
+git stash apply
+
+# Apply Specific Stash
+git stash apply stash@{0}
+
+# Applying and Drop a Stash
+git stash pop
+
+# Drop the stash
+git stash drop
+
+# Applying stash to a specific branch
+git stash apply stash@{0} <branch-name>
