@@ -1,2 +1,5 @@
 # Ensure you are on the branch you want to rebase
 git rebase main
+
+# Shows history of your commits
+git reflog
