@@ -1,7 +1,3 @@
-Here’s a clean, professional **README.md comment/description** you can add at the top of your repository:
-
----
-
 ## 📌 Git Cheatsheet
 
 This repository contains a **quick and practical Git cheatsheet** for everyday development workflows. It covers commonly used commands for:
